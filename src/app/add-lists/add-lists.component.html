@@ -1,0 +1,23 @@
+
+
+<h2>List</h2>
+<section *ngIf="products" class="product_sec">
+  <div class="container">    
+      <div class="col-12">
+        <div class="row">
+          <div *ngFor="let product of products " class=""
+            >
+          <div class="prd_cont">
+                  <h3>{{product.name}}
+                    </h3>
+               
+                </div>
+                 
+                </div>
+
+            </div>
+          </div>
+        </div>
+    
+       
+</section>
